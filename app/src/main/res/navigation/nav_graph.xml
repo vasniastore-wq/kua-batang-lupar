@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="id.kua.batanglupar.ui.dashboard.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/incomingListFragment"
+        android:name="id.kua.batanglupar.ui.incoming.IncomingListFragment"
+        android:label="Surat Masuk" />
+
+    <fragment
+        android:id="@+id/outgoingListFragment"
+        android:name="id.kua.batanglupar.ui.outgoing.OutgoingListFragment"
+        android:label="Surat Keluar" />
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="id.kua.batanglupar.ui.reports.ReportsFragment"
+        android:label="Laporan" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="id.kua.batanglupar.ui.settings.SettingsFragment"
+        android:label="Pengaturan" />
+
+    <fragment
+        android:id="@+id/incomingFormFragment"
+        android:name="id.kua.batanglupar.ui.incoming.IncomingFormFragment"
+        android:label="Tambah Surat Masuk" />
+
+    <fragment
+        android:id="@+id/outgoingFormFragment"
+        android:name="id.kua.batanglupar.ui.outgoing.OutgoingFormFragment"
+        android:label="Tambah Surat Keluar" />
+
+    <fragment
+        android:id="@+id/incomingDetailFragment"
+        android:name="id.kua.batanglupar.ui.incoming.IncomingDetailFragment"
+        android:label="Detail Surat Masuk" />
+
+    <fragment
+        android:id="@+id/outgoingDetailFragment"
+        android:name="id.kua.batanglupar.ui.outgoing.OutgoingDetailFragment"
+        android:label="Detail Surat Keluar" />
+
+</navigation>

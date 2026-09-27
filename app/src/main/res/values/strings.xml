@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KUA Batang Lupar</string>
-    
-    <!-- Dashboard -->
-    <string name="dashboard">Dashboard</string>
-    <string name="administrasi_surat">Administrasi Surat</string>
-    <string name="total_surat_masuk">Jumlah Surat Masuk</string>
-    <string name="total_surat_keluar">Jumlah Surat Keluar</string>
-    <string name="surat_masuk_bulan_ini">Surat Masuk Bulan Ini</string>
-    <string name="surat_keluar_bulan_ini">Surat Keluar Bulan Ini</string>
-    <string name="surat_terbaru">Surat Terbaru</string>
-    <string name="belum_ada_surat">Belum ada surat</string>
-    
-    <!-- Surat Masuk -->
+    <string name="dashboard_title">KUA Batang Lupar</string>
+    <string name="dashboard_subtitle">Administrasi Surat</string>
     <string name="surat_masuk">Surat Masuk</string>
+    <string name="surat_keluar">Surat Keluar</string>
     <string name="tambah_surat_masuk">Tambah Surat Masuk</string>
-    <string name="edit_surat_masuk">Edit Surat Masuk</string>
+    <string name="tambah_surat_keluar">Tambah Surat Keluar</string>
+    <string name="laporan">Laporan</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="cari">Cari</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+    <string name="hapus">Hapus</string>
+    <string name="edit">Edit</string>
+    <string name="lihat_lampiran">Lihat Lampiran</string>
+    <string name="tambah_lampiran">Tambah Lampiran</string>
+    <string name="belum_ada_lampiran">Belum ada lampiran</string>
+    <string name="konfirmasi_hapus">Apakah Anda yakin ingin menghapus surat ini?</string>
     <string name="nomor_agenda">Nomor Agenda</string>
     <string name="nomor_surat">Nomor Surat</string>
     <string name="tanggal_surat">Tanggal Surat</string>
@@ -24,58 +26,8 @@
     <string name="perihal">Perihal</string>
     <string name="disposisi">Disposisi</string>
     <string name="keterangan">Keterangan</string>
-    <string name="lampiran">Lampiran</string>
-    <string name="tambah_lampiran">Tambah Lampiran</string>
-    <string name="lihat_lampiran">Lihat Lampiran</string>
-    <string name="belum_ada_lampiran">Belum ada lampiran</string>
-    
-    <!-- Surat Keluar -->
-    <string name="surat_keluar">Surat Keluar</string>
-    <string name="tambah_surat_keluar">Tambah Surat Keluar</string>
-    <string name="edit_surat_keluar">Edit Surat Keluar</string>
     <string name="tujuan_surat">Tujuan Surat</string>
     <string name="penandatangan">Penandatangan</string>
-    
-    <!-- Navigation -->
-    <string name="nav_dashboard">Dashboard</string>
-    <string name="nav_surat_masuk">Surat Masuk</string>
-    <string name="nav_surat_keluar">Surat Keluar</string>
-    <string name="nav_laporan">Laporan</string>
-    <string name="nav_pengaturan">Pengaturan</string>
-    
-    <!-- Actions -->
-    <string name="simpan">Simpan</string>
-    <string name="batal">Batal</string>
-    <string name="edit">Edit</string>
-    <string name="hapus">Hapus</string>
-    <string name="cari">Cari</string>
-    <string name="reset">Reset</string>
-    <string name="tambah">Tambah</string>
-    
-    <!-- Dialog -->
-    <string name="konfirmasi_hapus">Apakah Anda yakin ingin menghapus surat ini?</string>
-    <string name="konfirmasi_hapus_title">Hapus Surat</string>
-    <string name="gagal">Gagal</string>
-    <string name="berhasil">Berhasil</string>
-    <string name="error_validasi_nomor_agenda">Nomor agenda tidak boleh kosong</string>
-    <string name="error_validasi_nomor_surat">Nomor surat tidak boleh kosong</string>
-    <string name="error_validasi_tanggal_surat">Tanggal surat tidak boleh kosong</string>
-    <string name="error_validasi_asal_surat">Asal surat tidak boleh kosong</string>
-    <string name="error_validasi_perihal">Perihal tidak boleh kosong</string>
-    <string name="error_validasi_tujuan_surat">Tujuan surat tidak boleh kosong</string>
-    <string name="error_validasi_tanggal_diterima">Tanggal diterima tidak boleh kosong</string>
-    
-    <!-- Laporan -->
-    <string name="laporan">Laporan</string>
-    <string name="buat_laporan">Buat Laporan</string>
-    <string name="total_surat">Total Surat</string>
-    <string name="export_pdf">Export PDF</string>
-    <string name="export_csv">Export CSV</string>
-    <string name="bulan">Bulan</string>
-    <string name="tahun">Tahun</string>
-    
-    <!-- Pengaturan -->
-    <string name="pengaturan">Pengaturan</string>
     <string name="nama_kantor">Nama Kantor</string>
     <string name="alamat_kantor">Alamat Kantor</string>
     <string name="nomor_telepon">Nomor Telepon</string>
@@ -85,7 +37,12 @@
     <string name="backup_data">Backup Data</string>
     <string name="restore_data">Restore Data</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="tentang_versi">Versi 1.0.0</string>
-    <string name="default_nama_kantor">Kantor Urusan Agama Kecamatan Batang Lupar</string>
-    <string name="loading">Memuat...</string>
+    <string name="default_office_name">Kantor Urusan Agama Kecamatan Batang Lupar</string>
+    <string name="default_office_address">Alamat kantor belum diisi</string>
+    <string name="default_phone">-</string>
+    <string name="default_email">-</string>
+    <string name="default_year">2026</string>
+    <string name="default_agenda_format">001/SM/2026</string>
+    <string name="empty_state">Belum ada data</string>
+    <string name="error_required">Wajib diisi</string>
 </resources>
